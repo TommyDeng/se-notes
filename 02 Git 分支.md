@@ -8,23 +8,24 @@
 - `git switch -c 名字`：创建并切换分支 其中-c就是创建
 - `git switch 名字`：切换到分支
 - `git branch`：列出所有的分支
-- `git merge 名字`：
-- `git rebase main`：
+- `git merge 名字`：合并分支
+- `git rebase main`：把你分支「搬」到 主分支
 
 ## merge 和 rebase
-- merge 的结果：
-- rebase 的结果：
-- 什么时候用哪个：
-- 黄金规则：
+- merge 的结果：保留历史分支
+- rebase 的结果：抹除历史分支，并重新生成哈希值
+- 什么时候用哪个：如果只有你本地仓库的代码commit，所以的commit都没有push到远程仓库时，用rebase。如果是和其他人在远程仓库协同工作（修改某个request），就用merge。
+- 黄金规则：同上
 
 ## 冲突
-- 冲突是怎么产生的：
-- 解决步骤：
+- 冲突是怎么产生的：两个commit，修改了同一个文件，或者修改了文件的同一处位置
+- 解决步骤：先手动修改好冲突位置的代码，再提交。
 
 ## 协作流程（GitHub Flow）
-1.
+1.这个不大知道怎么填
 2.
 3.
 4.
 
 ## 练习记录
+暂无
