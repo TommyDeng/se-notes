@@ -1,13 +1,13 @@
 # 02 Git 分支
 
 ## 分支的本质
-- 分支是什么：
-- 为什么创建分支几乎不花成本：
+- 分支是什么：新建一个标签（Branch）
+- 为什么创建分支几乎不花成本：只是存一个哈希值
 
 ## 常用命令
-- `git switch -c 名字`：
-- `git switch 名字`：
-- `git branch`：
+- `git switch -c 名字`：创建并切换分支 其中-c就是创建
+- `git switch 名字`：切换到分支
+- `git branch`：列出所有的分支
 - `git merge 名字`：
 - `git rebase main`：
 
